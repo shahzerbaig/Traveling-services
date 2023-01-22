@@ -3,12 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage":"http://shahzerbaig.github.io/Traveling-services",
   "scripts": {
     "dev": "vite",
     "predeploy" : "npm run build",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy" : "gh-pages -d build",
+    "deploy" : "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
